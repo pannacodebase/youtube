@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-API_KEY = 'YOUR_API_KEY'  # Replace with your actual API key
+API_KEY = 'AIzaSyAv7pQdqIDyuXtx7dr_c7zYjtDxJzjrG_A'  # Replace with your actual API key
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 @app.route('/', methods=['GET', 'POST'])
