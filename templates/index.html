@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Transcript Downloader</title>
+</head>
+<body>
+    <h1>YouTube Transcript Downloader</h1>
+    <form method="post">
+        <label for="url">Enter YouTube Video URL:</label><br>
+        <input type="text" id="url" name="url" required><br><br>
+        <input type="submit" value="Get Transcript">
+    </form>
+    <h2>Transcript:</h2>
+    <pre>{{ transcript }}</pre>
+</body>
+</html>
